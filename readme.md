@@ -26,3 +26,5 @@ Use action routes in controllers to have version specific action routes
 ```
 /api/v1/BaseConfiguration/GetAll
 ```
+
+Thanks to @rynowak for the assistance in getting this working.
