@@ -1,4 +1,4 @@
-[![Stable Nuget](https://img.shields.io/nuget/v/Stubble.Core.svg?style=flat-square)](https://www.nuget.org/packages/versionrouting)
+[![Stable Nuget](https://img.shields.io/badge/nuget-1.0.4-brightgreen.svg)](https://www.nuget.org/packages/versionrouting)
 
 
 #Namespace Versioning#
