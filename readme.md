@@ -1,3 +1,6 @@
+[![Stable Nuget](https://img.shields.io/nuget/v/Stubble.Core.svg?style=flat-square)](https://www.nuget.org/packages/versionrouting)
+
+
 #Namespace Versioning#
 ##Create routes for .NET Core Web API Controllers based on version number in the namespace##
 
