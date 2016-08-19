@@ -7,13 +7,13 @@ namespace VersionRouting{
     ///<summary>
     /// Grab version number from controller namespace and define route to that controller by combining api prefix, version number and controller name.
     /// </summary> 
-    public class NameSpaceRoutingConvention : IApplicationModelConvention {
+    public class NameSpaceVersionRoutingConvention : IApplicationModelConvention {
 
         private readonly string apiPrefix;
         private const string urlTemplate = "{0}/{1}/{2}";
 
-        public NameSpaceRoutingConvention(IConfigurationSection apiSettings) {
-            apiPrefix = apiSettings.GetValue<string>("Prefix");
+        public NameSpaceVersionRoutingConvention(string apiPrefix = "api") {
+            this.apiPrefix = apiPrefix;
         }
 
         public void Apply(ApplicationModel application) {
