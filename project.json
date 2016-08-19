@@ -7,6 +7,16 @@
     "NETStandard.Library": "1.6.0"
   },
 
+  "packOptions": {
+    "tags": [ "C#", "dotnetcore", "netcore", "namespace", "versioning", "webapi" ],
+    "summary": "Namespace version number route generator for .NET Core Web APIs",
+    "owners": [ "Peter Lazzarino", "Go Ahead Tours" ],
+    "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0",
+    "repository": {
+      "url": "https://github.com/peterlazzarino/NamespaceVersioning",
+      "type": "git"
+    }
+  },
   "scripts": {
     "postcompile": [
       "dotnet pack --no-build --configuration %compile:Configuration%"
