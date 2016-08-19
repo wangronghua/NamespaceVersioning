@@ -23,7 +23,7 @@ namespace VersionRouting{
                     continue;
                 }
                 var nameSpace = controller.ControllerType.Namespace.Split('.');
-                var version = nameSpace.FirstOrDefault(x => Regex.IsMatch(x, @"[v\d*]"));
+                var version = nameSpace.FirstOrDefault(x => Regex.IsMatch(x, @"[v][\d*]"));
                 if (string.IsNullOrEmpty(version)) {
                     continue;
                 }
